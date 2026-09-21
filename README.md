@@ -1,0 +1,4 @@
+Assignment 1 - Collage - Collection of my film photography from different locations
+I wanted this collage to resemble a zine and feel like a physical editorial collage the user interacts and flips through. 
+I used the CSS grid to organize the photographs I took on the page. 
+I tried my best not to use AI for this assignment or use it as minimally as possible. I used chatGPT to explain to me how the CSS grid works cause I needed to refresh my memory. My exact prompt for the AI took was: "explain this grid thing for me: photo4 { grid-column: 1 / span 9; grid-row: 5 / span 12;" "and what does this mean: grid-column: 1 / 5; grid-row: 1 / 5;" I also asked it to help me push one of the photographs in the back because I was stuck on it and it wouldn't work "what should be the z index of photo 5 for it to be the background"  
