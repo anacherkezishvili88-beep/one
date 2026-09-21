@@ -42,8 +42,8 @@ body {
 h1 {
     position: absolute;
 
-    left: 35%;
-    bottom: 2%;
+    left: 33.5%;
+    bottom: 3%;
 
     margin: 10px 0;
 
@@ -237,7 +237,7 @@ h1 {
     position: absolute;
 
     right: 40%;
-    bottom: 1.5%;
+    bottom: 2.8%;
 
     z-index: 15;
 
