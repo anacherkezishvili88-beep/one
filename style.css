@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.page1 {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+
+.collage {
+    position: relative;
+
+    width: 100%;
+    max-width: 1200px;
+    height: 850px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    overflow: hidden;
+}
+
+
+h1 {
+    position: absolute;
+
+    left: 3%;
+    bottom: 1%;
+
+    margin: 0;
+
+    z-index: 20;
+
+    font-size: 58px;
+    font-weight: bold;
+
+    letter-spacing: -4px;
+
+    color: #111;
+
+    transform: rotate(-2deg);
+}
+
+
+
+.photo {
+    position: absolute;
+
+    overflow: hidden;
+
+    border: 3px solid white;
+
+    z-index: 2;
+
+    background: white;
+}
+
+
+.photo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+
+.photo4 {
+    left: 3%;
+    top: 29%;
+
+    width: 70%;
+    height: 59%;
+
+    z-index: 4;
+
+    transform: rotate(-1deg);
+}
+
+
+
+.photo1 {
+    left: 7%;
+    top: 4%;
+
+    width: 31%;
+    height: 25%;
+
+    z-index: 3;
+
+    transform: rotate(-2deg);
+}
+
+
+
+.photo2 {
+    left: 38%;
+    top: 3%;
+
+    width: 27%;
+    height: 30%;
+
+    z-index: 5;
+
+    transform: rotate(1deg);
+}
+
+
+
+.photo3 {
+    left: 64%;
+    top: 8%;
+
+    width: 27%;
+    height: 32%;
+
+    z-index: 3;
+
+    transform: rotate(2deg);
+}
+
+
+
+.photo5 {
+    right: 8%;
+    top: 47%;
+
+    width: 19%;
+    height: 42%;
+
+    z-index: 6;
+
+    transform: rotate(1deg);
+}
+
+
+
+.small-text {
+    position: absolute;
+
+    z-index: 15;
+
+    font-size: 11px;
+
+    line-height: 1.4;
+
+    letter-spacing: 1.5px;
+
+    color: #111;
+}
+
+
+.text1 {
+    left: 3%;
+    top: 1%;
+
+    width: 150px;
+}
+
+
+.text2 {
+    right: 8%;
+    top: 43%;
+}
+
+
+.caption {
+    position: absolute;
+
+    right: 7%;
+    bottom: 20%;
+
+    z-index: 15;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.page-number {
+    position: absolute;
+
+    right: 4%;
+    bottom: 3%;
+
+    z-index: 20;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* hover */
+
+.photo img {
+    transition: transform 0.01s ease;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
